@@ -32,7 +32,7 @@ spring:
       max-file-size: 10MB
       max-request-size: 100MB
 mybatis:
-  type-aliases-package: com.baizhi.entity              #mybatis中的别名设置
+  type-aliases-package: com.baizhi.pojo              #mybatis中的别名设置
   mapper-locations: classpath:com/baizhi/mapper/*.xml  #?mapper中的位置
 pagehelper:
   helper-dialect: mysql
